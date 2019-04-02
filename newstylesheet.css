@@ -1,0 +1,32 @@
+.course{
+    color: aliceblue;
+    background: grey;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 16px;
+    margin: 16px;
+    border:5px;
+    border-style: solid;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    border-color:black;
+}
+.course:nth-child(odd){
+    color: aquamarine;
+}
+
+.course:hover {
+    color: BLACK;
+    cursor: pointer;
+}
+
+body > p {
+    color: yellow;
+}
+
+p ~ p{
+    color:blue;
+}

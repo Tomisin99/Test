@@ -1,0 +1,11 @@
+*{background: blue;}
+
+header, section, footer, aside, nav, article, hgroup{
+    display: block;
+}
+
+body{
+    width: 100%;
+    display:-webkit-box;
+    -webkit-box-pack: center; 
+}
